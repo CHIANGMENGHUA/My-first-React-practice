@@ -1,4 +1,5 @@
 import React from "react";
+import "./styles/style.css";
 
 const Info = () => {
   let myStr = ["a", "b", "c"];
