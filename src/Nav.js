@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 
 const Nav = () => {
@@ -5,10 +6,14 @@ const Nav = () => {
     <nav>
       <ul>
         <li>
-          <a href="#">首頁</a>
+          <a style={{ color: "red" }} href="#">
+            首頁
+          </a>
         </li>
         <li>
-          <a href="#">另一個頁面</a>
+          <a style={{ color: "red" }} href="#">
+            另一個頁面
+          </a>
         </li>
       </ul>
     </nav>
