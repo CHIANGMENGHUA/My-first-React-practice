@@ -1,4 +1,5 @@
 import Nav from "./Nav";
+import Info from "./Info";
 
 function App() {
   return (
