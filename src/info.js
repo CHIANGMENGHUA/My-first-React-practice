@@ -1,9 +1,13 @@
 import React from "react";
 
 const Info = () => {
+  let myStr = ["a", "b", "c"];
   return (
-    <div>
-      <h1>這是info組件</h1>
+    <div className="Info">
+      <p>我的字母:</p>
+      {myStr.map((str) => {
+        return <p>我的字母有{str}</p>;
+      })}
     </div>
   );
 };
