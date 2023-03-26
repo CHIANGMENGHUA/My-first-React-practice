@@ -3,7 +3,7 @@ import React from "react";
 
 const Nav = () => {
   return (
-    <nav>
+    <nav style={{ backgroundColor: "lightblue" }}>
       <ul>
         <li>
           <a style={{ color: "red" }} href="#">
