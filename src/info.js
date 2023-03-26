@@ -1,6 +1,6 @@
 import React from "react";
 
-const info = () => {
+const Info = () => {
   return (
     <div>
       <h1>這是info組件</h1>
@@ -8,4 +8,4 @@ const info = () => {
   );
 };
 
-export default info;
+export default Info;
